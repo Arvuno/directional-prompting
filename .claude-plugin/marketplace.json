@@ -1,0 +1,21 @@
+{
+  "name": "directional-prompting-marketplace",
+  "owner": {
+    "name": "Bootoshi",
+    "url": "https://github.com/kingbootoshi"
+  },
+  "metadata": {
+    "description": "Outcome-first plus directional language. A two-layer skill for writing prompts, agent directives, and skill descriptions that point the model at the destination on every token.",
+    "version": "1.0.0"
+  },
+  "plugins": [
+    {
+      "name": "directional-prompting",
+      "source": "./plugins/directional-prompting",
+      "description": "Write prompts, system instructions, agent directives, and skill descriptions using two stacked layers: outcome-first (goal, success criteria, stopping condition) plus directional language (every sentence names the path with positive verbs).",
+      "version": "1.0.0",
+      "category": "developer tools",
+      "keywords": ["prompting", "prompt-engineering", "skills", "agents", "system-prompts", "claude-code", "codex", "directional", "outcome-first"]
+    }
+  ]
+}
