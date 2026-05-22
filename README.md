@@ -77,12 +77,12 @@ Restart Claude Code if the skill does not appear immediately. After install, the
 
 ### OpenAI Codex CLI
 
-Codex looks for skills at `~/.codex/skills/<name>/`. Drop the skill directory there:
+Codex looks for skills at `~/.codex/skills/<name>/`. Clone the repo and symlink the skill:
 
 ```bash
-git clone https://github.com/kingbootoshi/directional-prompting.git ~/.directional-prompting
+git clone https://github.com/kingbootoshi/directional-prompting.git ~/directional-prompting
 mkdir -p ~/.codex/skills
-ln -sfn ~/.directional-prompting/plugins/directional-prompting/skills/directional-prompting ~/.codex/skills/directional-prompting
+ln -sfn ~/directional-prompting/plugins/directional-prompting/skills/directional-prompting ~/.codex/skills/directional-prompting
 ```
 
 Restart Codex if needed. Invoke explicitly by asking Codex to "use directional prompting on this" or it will auto-select on prompt-authoring language.
