@@ -162,6 +162,14 @@ Built against the open [Agent Skills](https://developers.openai.com/codex/skills
 
 The `agents/openai.yaml` sidecar is Codex-specific UI metadata. Other agents ignore it.
 
+## Roadmap
+
+- [ ] Add more before/after examples for different prompt types
+- [ ] Create video tutorial for installation across agents
+- [ ] Publish to Agent Skills marketplace for Claude Code
+- [ ] Add interactive prompt audit tool
+- [ ] Expand compatibility for more agents (Gemini, Continue, etc.)
+
 ## License
 
 MIT.
