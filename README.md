@@ -128,7 +128,7 @@ For each draft, run the four-check pass inside the skill:
 
 ## Why this matters more for agents
 
-A coding agent reads its system prompt on every turn. A negation that plants the wrong concept gets re-planted dozens of times per session. A vague outcome lets the agent's notion of "done" drift turn-by-turn.
+A coding agent reads it's system prompt on every turn. A negation that plants the wrong concept gets re-planted dozens of times per session. A vague outcome lets the agent's notion of "done" drift turn-by-turn.
 
 Outcome plus direction together re-load the correct frame on every turn — the agent's attention is structurally aimed at the destination, and every instruction in the body points toward it.
 
